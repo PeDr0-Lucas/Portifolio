@@ -1,0 +1,29 @@
+@use 'variables'
+    
+*
+    padding: 0
+    margin: 0
+    font-family: variables.$font-stack
+    box-sizing: border-box
+
+body
+    background: variables.$body-bg-color
+
+a,svg
+    transition: .4s
+
+
+#portfolio
+    display: flex
+    flex-wrap: wrap
+    padding: 3rem
+    gap: 3rem
+
+    h1
+        width: 100%
+        font-size: 5rem
+        margin: 0
+        margin-bottom: 4rem
+        background: variables.$gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
